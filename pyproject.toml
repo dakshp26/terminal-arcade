@@ -1,0 +1,23 @@
+[project]
+name = "terminal-arcade"
+version = "0.1.0"
+description = "Classic arcade games in your terminal — built with Python, Textual, and Rich"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "rich>=14.3.3",
+    "textual>=8.2.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.uv]
+exclude-newer = "3 days"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "ruff>=0.15.8",
+]
