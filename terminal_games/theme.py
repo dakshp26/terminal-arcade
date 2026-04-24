@@ -65,3 +65,11 @@ STARFALL_BULLET_UP = "bold yellow"      # player bullet (|)
 # number cells (1-8) as literals in screen.py
 
 MINEFIELD_DANGER = "bold bright_red"    # flag count, BOOM!, exposed mine (*)
+
+# ── AsterAvoid colours ────────────────────────────────────────────────────────
+
+ASTERAVOID_ACCENT = "red"
+ASTERAVOID_TITLE = "bold bright_red"
+
+ASTERAVOID_SHIP = "bold bright_yellow"   # ship cells < ^ >
+ASTERAVOID_ASTEROID = "bold bright_red"  # falling asteroids *
