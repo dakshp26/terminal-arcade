@@ -62,11 +62,6 @@ Uncover a grid hiding 25 mines using numbered clues. Flag every mine without tri
 ### AsterAvoid
 <img src="assets/asteravoid.png" alt="AsterAvoid" width="100%" />
 Pilot a spacecraft across the bottom and dodge a relentless barrage of accelerating asteroids falling from above.
-
-- Grid: 40 × 20
-- Controls: ← → / A D / H L
-- Tick rate: 0.09 s
-
 </td>
 </tr>
 </table>
