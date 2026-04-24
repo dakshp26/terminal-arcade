@@ -1,4 +1,4 @@
-# Terminal Arcade Games
+<h1 align="center">Terminal Arcade Games</h1>
 
 <p align="center">
   <img src="assets/screenshot-title-card.png" alt="Terminal Arcade Games" />
