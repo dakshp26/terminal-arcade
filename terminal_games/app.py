@@ -69,6 +69,16 @@ class TerminalGamesApp(App[None]):
         height: auto;
         content-align: center top;
     }
+    #av_status {
+        margin: 0 2;
+        height: auto;
+        content-align: center top;
+    }
+    #av_field {
+        margin: 0 2 1 2;
+        height: auto;
+        content-align: center top;
+    }
     """
 
     def on_mount(self) -> None:

@@ -20,6 +20,7 @@ Play fully interactive ASCII games straight from the command line. Built with [T
 ## Games
 
 <table>
+
 <tr>
 <td align="center" width="25%">
 
@@ -52,6 +53,15 @@ Two-player classic. Take turns placing X and O; first to line up three in a row 
 
 Uncover a grid hiding 25 mines using numbered clues. Flag every mine without triggering one.
 
+</td>
+</tr>
+
+<tr>
+<td align="center" width="25%">
+
+### AsterAvoid
+<img src="assets/asteravoid.png" alt="AsterAvoid" width="100%" />
+Pilot a spacecraft across the bottom and dodge a relentless barrage of accelerating asteroids falling from above.
 </td>
 </tr>
 </table>
@@ -121,7 +131,10 @@ terminal_games/
     ├── tictactoe/
     │   ├── model.py     # Pure game logic
     │   └── screen.py    # TUI screen
-    └── minefield/
+    ├── minefield/
+    │   ├── model.py     # Pure game logic
+    │   └── screen.py    # TUI screen
+    └── asteravoid/
         ├── model.py     # Pure game logic
         └── screen.py    # TUI screen
 ```
