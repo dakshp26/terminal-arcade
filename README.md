@@ -4,12 +4,14 @@
   <img src="assets/screenshot-title-card.png" alt="Terminal Arcade Games" />
 </p>
 
-> A collection of classic arcade games that run entirely in your terminal — no browser, no GUI, no dependencies beyond Python. **This project is built for personal and educational purposes only.** It's a playground for learning terminal UI development with Textual and Rich — feel free to explore, tinker, and build on it.
+<p align="center">
+  <a href="https://github.com/dakshp26/terminal-arcade"><img src="https://img.shields.io/github/stars/dakshp26/terminal-arcade?style=social" alt="GitHub Stars" /></a>
+  <img src="https://img.shields.io/badge/python-3.13%2B-blue.svg" alt="Python 3.13+" />
+  <a href="https://github.com/Textualize/textual"><img src="https://img.shields.io/badge/TUI-Textual-purple" alt="Powered by Textual" /></a>
+  <a href="https://github.com/astral-sh/ruff"><img src="https://img.shields.io/badge/linted%20with-ruff-orange" alt="Linted with Ruff" /></a>
+</p>
 
-[![GitHub Stars](https://img.shields.io/github/stars/dakshp26/terminal-arcade?style=social)](https://github.com/dakshp26/terminal-arcade)
-[![Python 3.13+](https://img.shields.io/badge/python-3.13%2B-blue.svg)](https://www.python.org/downloads/)
-[![Powered by Textual](https://img.shields.io/badge/TUI-Textual-purple)](https://github.com/Textualize/textual)
-[![Linted with Ruff](https://img.shields.io/badge/linted%20with-ruff-orange)](https://github.com/astral-sh/ruff)
+> A collection of classic arcade games that run entirely in your terminal — no browser, no GUI, no dependencies beyond Python. **This project is built for personal and educational purposes only.** It's a playground for learning terminal UI development with Textual and Rich — feel free to explore, tinker, and build on it.
 
 > If you find this useful, consider giving it a ⭐ — it helps others discover the project.
 
