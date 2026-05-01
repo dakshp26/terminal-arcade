@@ -134,24 +134,12 @@ terminal_games/
 └── games/
     ├── protocol.py      # TerminalGame interface
     ├── registry.py      # Game registry
-    ├── serpentine/
-    │   ├── model.py     # Pure game logic
-    │   └── screen.py    # TUI screen
+    ├── serpentine/      # each: model.py (logic), screen.py (TUI)
     ├── starfall/
-    │   ├── model.py     # Pure game logic
-    │   └── screen.py    # TUI screen
     ├── tictactoe/
-    │   ├── model.py     # Pure game logic
-    │   └── screen.py    # TUI screen
     ├── minefield/
-    │   ├── model.py     # Pure game logic
-    │   └── screen.py    # TUI screen
     ├── asteravoid/
-    │   ├── model.py     # Pure game logic
-    │   └── screen.py    # TUI screen
     └── echo_chamber/
-        ├── model.py     # Pure game logic
-        └── screen.py    # TUI screen
 ```
 
 Game logic (`model.py`) is kept free of Textual/Rich imports so it stays independently testable.
