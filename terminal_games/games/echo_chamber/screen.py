@@ -172,7 +172,7 @@ class EchoChamberGameEntry(TerminalGame):
 
     @property
     def description(self) -> str:
-        return "You are a bat in an unlit cave maze. Space emits sonar—cells near you light up, then the bright ring contracts each tick. Step on the exit to advance; enemy bats remove a life on contact."
+        return "Navigate a pitch-dark cave as a bat(@) — pulse sonar(space) to illuminate your surroundings, reach the exit(>) before your echo fades and the cave bats(*) find you."
 
     def build_screen(self, return_to_menu: ReturnToMenu) -> Screen[None]:
         return EchoChamberScreen(return_to_menu)
