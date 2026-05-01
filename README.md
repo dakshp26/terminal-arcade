@@ -11,11 +11,15 @@
   <a href="https://github.com/astral-sh/ruff"><img src="https://img.shields.io/badge/linted%20with-ruff-orange" alt="Linted with Ruff" /></a>
 </p>
 
-> A collection of classic arcade games that run entirely in your terminal — no browser, no GUI, no dependencies beyond Python. **This project is built for personal and educational purposes only.** It's a playground for learning terminal UI development with Textual and Rich — feel free to explore, tinker, and build on it.
+<div align="center">
+A collection of classic arcade games that run entirely in your terminal — no browser, no GUI, no dependencies beyond Python. It's a playground for learning terminal UI development with Textual and Rich — feel free to explore, tinker, and build on it. Play fully interactive ASCII games straight from the command line. Built with <a href="https://github.com/Textualize/textual">Textual</a> and <a href="https://github.com/Textualize/rich">Rich</a> — smooth keyboard input, live rendering, and zero latency.
+</div>
 
-> If you find this useful, consider giving it a ⭐ — it helps others discover the project.
+<p></p>
 
-Play fully interactive ASCII games straight from the command line. Built with [Textual](https://github.com/Textualize/textual) and [Rich](https://github.com/Textualize/rich) — smooth keyboard input, live rendering, and zero latency.
+<div align="center">
+If you find it fun and interesting, consider giving it a ⭐ — it helps others discover the project.
+</div>
 
 ---
 
