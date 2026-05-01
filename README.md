@@ -69,6 +69,12 @@ Uncover a grid hiding 25 mines using numbered clues. Flag every mine without tri
 <img src="assets/asteravoid.png" alt="AsterAvoid" width="100%" />
 Pilot a spacecraft across the bottom and dodge a relentless barrage of accelerating asteroids falling from above.
 </td>
+<td align="center" width="25%">
+
+### Echo Chamber
+<img src="assets/echo-chamber.png" alt="Echo Chamber" width="100%" />
+Navigate a pitch-dark cave as a bat(@) — pulse sonar(space) to illuminate your surroundings, reach the exit(>) before your echo fades and the cave bats(*) find you.
+</td>
 </tr>
 </table>
 
@@ -128,21 +134,12 @@ terminal_games/
 └── games/
     ├── protocol.py      # TerminalGame interface
     ├── registry.py      # Game registry
-    ├── serpentine/
-    │   ├── model.py     # Pure game logic
-    │   └── screen.py    # TUI screen
+    ├── serpentine/      # each: model.py (logic), screen.py (TUI)
     ├── starfall/
-    │   ├── model.py     # Pure game logic
-    │   └── screen.py    # TUI screen
     ├── tictactoe/
-    │   ├── model.py     # Pure game logic
-    │   └── screen.py    # TUI screen
     ├── minefield/
-    │   ├── model.py     # Pure game logic
-    │   └── screen.py    # TUI screen
-    └── asteravoid/
-        ├── model.py     # Pure game logic
-        └── screen.py    # TUI screen
+    ├── asteravoid/
+    └── echo_chamber/
 ```
 
 Game logic (`model.py`) is kept free of Textual/Rich imports so it stays independently testable.

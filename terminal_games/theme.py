@@ -73,3 +73,21 @@ ASTERAVOID_TITLE = "bold bright_red"
 
 ASTERAVOID_SHIP = "bold bright_yellow"   # ship cells < ^ >
 ASTERAVOID_ASTEROID = "bold bright_red"  # falling asteroids *
+
+# ── Echo Chamber colours ───────────────────────────────────────────────────────
+
+ECHO_ACCENT = "yellow"
+ECHO_TITLE = "bold bright_yellow"   # player @
+
+ECHO_WALL_4 = "bold bright_yellow"  # wall at max intensity
+ECHO_WALL_3 = "yellow"
+ECHO_WALL_2 = "dim yellow"
+ECHO_WALL_1 = "dim"
+
+ECHO_FLOOR_4 = "white"              # floor at max intensity
+ECHO_FLOOR_3 = "dim white"
+ECHO_FLOOR_2 = "dim"
+ECHO_FLOOR_1 = "dim"
+
+ECHO_EXIT = "bold bright_green"     # exit cell >
+ECHO_BAT = "bold bright_red"        # enemy bat *
