@@ -72,6 +72,7 @@ Pilot a spacecraft across the bottom and dodge a relentless barrage of accelerat
 <td align="center" width="25%">
 
 ### Echo Chamber
+<img src="assets/echo-chamber.png" alt="Echo Chamber" width="100%" />
 Navigate a pitch-dark cave as a bat — pulse sonar to illuminate your surroundings, reach the exit before your echo fades and the cave bats find you.
 </td>
 </tr>
