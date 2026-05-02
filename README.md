@@ -42,7 +42,7 @@ uv sync
 uv tool install . --with-requirements requirements.txt
 ```
 
-You're all set — `terminal-arcade` is now available from anywhere on your system. Happy arcading!
+You're all set — `terminal-arcade` is now available from any CLI and directory on your system. Happy arcading!
 
 **New games dropped?** Pull and reinstall:
 
