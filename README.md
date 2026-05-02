@@ -1,7 +1,7 @@
 <div align='center'>
 
 # Terminal Arcade
-** Play games in the terminal while your coding agents run **
+**Play games in the terminal while your coding agents run**
 
 <img src="assets/screenshot-title-card.png" alt="Terminal Arcade Games" />
 
@@ -25,6 +25,33 @@ It's an open playground for learning terminal UI development — explore the cod
 <div align="center">
 If you find it fun and interesting, consider giving it a ⭐ — it helps others discover the project.
 </div>
+
+---
+
+## Requirements
+
+- Python 3.13+
+- [uv](https://github.com/astral-sh/uv) (recommended) — or pip
+
+---
+
+## Quickstart
+
+```bash
+git clone https://github.com/dakshp26/terminal-arcade.git
+cd terminal-arcade
+uv sync
+uv tool install . --with-requirements requirements.txt
+```
+
+You're all set — `terminal-arcade` is now available from anywhere on your system. Happy arcading!
+
+**New games dropped?** Pull and reinstall:
+
+```bash
+git pull
+uv tool install . --with-requirements requirements.txt
+```
 
 ---
 
@@ -89,39 +116,12 @@ The arcade is still being built. More games are queued up and dropping soon — 
 
 ---
 
-## Requirements
-
-- Python 3.13+
-- [uv](https://github.com/astral-sh/uv) (recommended) — or pip
-
----
-
-## Quickstart
-
-```bash
-git clone https://github.com/dakshp26/terminal-arcade.git
-cd terminal-arcade
-uv sync
-uv tool install . --with-requirements requirements.txt
-```
-
-You're all set — `terminal-arcade` is now available from anywhere on your system. Happy arcading!
-
-**New games dropped?** Pull and reinstall:
-
-```bash
-git pull
-uv tool install . --with-requirements requirements.txt
-```
-
----
-
-## Controls
+## General Game Controls
 
 | Action   | Keys                        |
 |----------|-----------------------------|
 | Move     | Arrow keys / WASD / hjkl    |
-| Fire     | Space / ↑ / W               |
+| Secondary Action    | Space / ↑ / W               |
 | Restart  | R                           |
 | Menu     | Esc                         |
 | Quit     | Ctrl+C                      |
