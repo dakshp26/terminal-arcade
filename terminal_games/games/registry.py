@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from terminal_games.games.asteravoid.screen import AsterAvoidGameEntry
 from terminal_games.games.echo_chamber.screen import EchoChamberGameEntry
+from terminal_games.games.floodgate.screen import FloodgateGameEntry
 from terminal_games.games.minefield.screen import MinefieldGameEntry
 from terminal_games.games.protocol import TerminalGame
 from terminal_games.games.serpentine.screen import SerpentineGameEntry
@@ -20,4 +21,5 @@ def get_games() -> list[TerminalGame]:
         MinefieldGameEntry(),
         AsterAvoidGameEntry(),
         EchoChamberGameEntry(),
+        FloodgateGameEntry(),
     ]

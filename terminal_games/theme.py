@@ -91,3 +91,23 @@ ECHO_FLOOR_1 = "dim"
 
 ECHO_EXIT = "bold bright_green"     # exit cell >
 ECHO_BAT = "bold bright_red"        # enemy bat *
+
+# ── Floodgate colours ─────────────────────────────────────────────────────────
+
+FLOODGATE_ACCENT = "blue"
+FLOODGATE_TITLE = "bold bright_blue"
+
+# Six flood colours — bright (owned territory) and dim (unowned cells)
+FLOODGATE_0 = "bright_red"
+FLOODGATE_1 = "bright_green"
+FLOODGATE_2 = "bright_yellow"
+FLOODGATE_3 = "bright_blue"
+FLOODGATE_4 = "white"
+FLOODGATE_5 = "bright_cyan"
+
+FLOODGATE_0_DIM = "dim bright_red"
+FLOODGATE_1_DIM = "dim bright_green"
+FLOODGATE_2_DIM = "dim bright_yellow"
+FLOODGATE_3_DIM = "dim bright_blue"
+FLOODGATE_4_DIM = "dim white"
+FLOODGATE_5_DIM = "dim bright_cyan"
