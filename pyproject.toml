@@ -16,6 +16,13 @@ pythonpath = ["."]
 [tool.uv]
 exclude-newer = "3 days"
 
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["terminal_games*"]
+
+[project.scripts]
+terminal-arcade = "terminal_games.app:run_app"
+
 [dependency-groups]
 dev = [
     "pytest>=9.0.3",
