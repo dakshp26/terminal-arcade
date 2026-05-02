@@ -15,15 +15,15 @@
 </p>
 
 <div align="center">
-Play classic arcade games straight from your terminal — no browser, no GUI, just Python.
+Play classic arcade games straight from your terminal. No browser, no GUI, just Python.
 Built with <a href="https://github.com/Textualize/textual">Textual</a> and <a href="https://github.com/Textualize/rich">Rich</a> for smooth keyboard input, live rendering, and zero latency.
-It's an open playground for learning terminal UI development — explore the code, tinker with it, and build your own games.
+It's an open playground for learning terminal UI development. Explore the code, tinker with it, and build your own games.
 </div>
 
 <p></p>
 
 <div align="center">
-If you find it fun and interesting, consider giving it a ⭐ — it helps others discover the project.
+If you find it fun and interesting, consider giving it a ⭐. It helps others discover the project.
 </div>
 
 ---
