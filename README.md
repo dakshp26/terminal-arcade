@@ -1,8 +1,11 @@
-<h1 align="center">Terminal Arcade</h1>
+<div align='center'>
 
-<p align="center">
-  <img src="assets/screenshot-title-card.png" alt="Terminal Arcade Games" />
-</p>
+# Terminal Arcade
+**Play games in the terminal while your coding agents run**
+
+<img src="assets/screenshot-title-card.png" alt="Terminal Arcade Games" />
+
+</div>
 
 <p align="center">
   <a href="https://github.com/dakshp26/terminal-arcade"><img src="https://img.shields.io/github/stars/dakshp26/terminal-arcade?style=social" alt="GitHub Stars" /></a>
@@ -12,7 +15,9 @@
 </p>
 
 <div align="center">
-A collection of classic arcade games that run entirely in your terminal — no browser, no GUI, no dependencies beyond Python. It's a playground for learning terminal UI development with Textual and Rich — feel free to explore, tinker, and build on it. Play fully interactive ASCII games straight from the command line. Built with <a href="https://github.com/Textualize/textual">Textual</a> and <a href="https://github.com/Textualize/rich">Rich</a> — smooth keyboard input, live rendering, and zero latency.
+Play classic arcade games straight from your terminal — no browser, no GUI, just Python.
+Built with <a href="https://github.com/Textualize/textual">Textual</a> and <a href="https://github.com/Textualize/rich">Rich</a> for smooth keyboard input, live rendering, and zero latency.
+It's an open playground for learning terminal UI development — explore the code, tinker with it, and build your own games.
 </div>
 
 <p></p>
@@ -20,6 +25,31 @@ A collection of classic arcade games that run entirely in your terminal — no b
 <div align="center">
 If you find it fun and interesting, consider giving it a ⭐ — it helps others discover the project.
 </div>
+
+---
+
+## Requirements
+
+- Python 3.13+
+- [uv](https://github.com/astral-sh/uv) (recommended) — or pip
+
+## Quickstart
+
+```bash
+git clone https://github.com/dakshp26/terminal-arcade.git
+cd terminal-arcade
+uv sync
+uv tool install . --with-requirements requirements.txt
+```
+
+You're all set — `terminal-arcade` is now available from any CLI and directory on your system. Happy arcading!
+
+**New games dropped?** Pull and reinstall:
+
+```bash
+git pull
+uv tool install . --with-requirements requirements.txt
+```
 
 ---
 
@@ -84,40 +114,12 @@ The arcade is still being built. More games are queued up and dropping soon — 
 
 ---
 
-## Requirements
-
-- Python 3.13+
-- [uv](https://github.com/astral-sh/uv) (recommended) — or pip
-
----
-
-## Installation
-
-```bash
-# Clone the repo
-git clone https://github.com/dakshp26/terminal-arcade.git
-cd terminal-arcade
-
-# Install dependencies and run
-uv sync
-uv run main.py
-```
-
-Or with pip:
-
-```bash
-pip install textual rich
-python main.py
-```
-
----
-
-## Controls
+## General Game Controls
 
 | Action   | Keys                        |
 |----------|-----------------------------|
 | Move     | Arrow keys / WASD / hjkl    |
-| Fire     | Space / ↑ / W               |
+| Secondary Action    | Space / ↑ / W               |
 | Restart  | R                           |
 | Menu     | Esc                         |
 | Quit     | Ctrl+C                      |
@@ -157,6 +159,24 @@ That's it. The menu picks it up automatically.
 ---
 
 ## Development
+
+### Setup
+
+```bash
+git clone https://github.com/dakshp26/terminal-arcade.git
+cd terminal-arcade
+uv sync
+uv run main.py
+```
+
+Or with pip:
+
+```bash
+pip install textual rich
+python main.py
+```
+
+### Test and Lint Commands
 
 ```bash
 # Run tests
