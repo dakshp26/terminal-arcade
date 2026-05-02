@@ -33,8 +33,6 @@ If you find it fun and interesting, consider giving it a ⭐ — it helps others
 - Python 3.13+
 - [uv](https://github.com/astral-sh/uv) (recommended) — or pip
 
----
-
 ## Quickstart
 
 ```bash
