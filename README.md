@@ -103,7 +103,13 @@ Pilot a spacecraft across the bottom and dodge a relentless barrage of accelerat
 
 ### Echo Chamber
 <img src="assets/echo-chamber.png" alt="Echo Chamber" width="100%" />
-Navigate a pitch-dark cave as a bat(@) — pulse sonar(space) to illuminate your surroundings, reach the exit(>) before your echo fades and the cave bats(*) find you.
+Navigate a pitch-dark cave as a bat (@); pulse sonar (space) to illuminate your surroundings, reach the exit (>) before your echo fades and the cave bats (*) find you.
+</td>
+<td align="center" width="25%">
+
+### Floodgate
+<img src="assets/floodgate.png" alt="Echo Chamber" width="100%" />
+Flood-fill from the top-left: each move (1-6) picks a colour; your region updates and absorbs every touching cell of that colour. Paint the whole grid within 30 moves.
 </td>
 </tr>
 </table>
@@ -141,7 +147,8 @@ terminal_games/
     ├── tictactoe/
     ├── minefield/
     ├── asteravoid/
-    └── echo_chamber/
+    ├── echo_chamber/
+    └── floodgate/
 ```
 
 Game logic (`model.py`) is kept free of Textual/Rich imports so it stays independently testable.
